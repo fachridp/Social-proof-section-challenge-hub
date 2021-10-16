@@ -1,0 +1,23 @@
+.bg-img {
+  .pattern-top {
+    width: 360px;
+
+    img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .pattern-bottom {
+    width: 360px;
+
+    img {
+      width: 100%;
+      position: absolute;
+      bottom: -720px;
+      right: 0;
+    }
+  }
+}

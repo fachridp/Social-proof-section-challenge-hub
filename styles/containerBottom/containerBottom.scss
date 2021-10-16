@@ -1,0 +1,56 @@
+.container-bottom {
+  margin: 3rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+
+  .reusing-style-cards {
+    padding: 2rem 1.5rem;
+    background-color: var(--VeryDarkMagenta);
+    border-radius: 0.5rem;
+
+    &:nth-child(2) {
+      margin: 1rem 0;
+    }
+
+    .person {
+      display: flex;
+      align-items: center;
+
+      .picture {
+        height: 50px;
+        margin: 0 1.4rem 0 0;
+
+        img {
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+
+      .profile {
+        h5 {
+          font-size: 0.92em;
+          color: var(--White);
+          letter-spacing: 0.03rem;
+        }
+
+        p {
+          font-weight: 300;
+          font-size: 0.9em;
+          letter-spacing: 0.02rem;
+          padding: 0.3rem 0 0 0;
+          color: var(--SoftPink);
+        }
+      }
+    }
+
+    .the-review {
+      margin: 2rem 0 0 0;
+
+      p {
+        font-size: 0.9em;
+        color: var(--White);
+        line-height: 1.5rem;
+      }
+    }
+  }
+}

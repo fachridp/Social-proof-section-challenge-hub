@@ -1,0 +1,22 @@
+.bg-img .pattern-top {
+  width: 360px;
+}
+
+.bg-img .pattern-top img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg-img .pattern-bottom {
+  width: 360px;
+}
+
+.bg-img .pattern-bottom img {
+  width: 100%;
+  position: absolute;
+  bottom: -720px;
+  right: 0;
+}
+/*# sourceMappingURL=bgImg.css.map */
